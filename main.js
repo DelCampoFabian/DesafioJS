@@ -1,6 +1,7 @@
 let programa
 let ingresarTienda 
 
+alert ("Bienvenido!");
 
 function opciones () {
    programa = parseInt (prompt("Ingrese la opcion que desea:\n 1- Indumentaria \n 2- Accesorios \n 3- Suplementos \n 4- Barritas y snacks ")); 
@@ -69,10 +70,9 @@ ingTienda ()
             alert ("Su compra de Vaso shaker batidos ha sido realizada")
          }else if ((suplementos != "a") && (suplementos != "b") && (suplementos != "c") && (suplementos != "d")){
              alert ("Estas volviendo al inicio");
-             ingTienda()
           }else {
             alert ("Volviendo al inicio");
-            
+            ingTienda()
           }
      }
      
